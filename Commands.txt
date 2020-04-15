@@ -10,3 +10,18 @@ pull files from remote repo
 	if error: fatal: HTTP request failed
 	git remote set-url origin "link"
 
+list of files (untracked and modified)
+> git status
+
+add a file to index
+> git add "file_name"
+
+commit files
+> git commit -m "commiting message"
+
+add all new/ modified files to index
+> git add -A
+
+commit all new/ modified files
+> git commit -a -m "message"
+
