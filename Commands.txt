@@ -1,0 +1,12 @@
+initialize a local git repo
+> git init
+
+connect to remotr reop
+> git remote add origin "link"
+
+pull files from remote repo
+> git pull origin master
+
+	if error: fatal: HTTP request failed
+	git remote set-url origin "link"
+
