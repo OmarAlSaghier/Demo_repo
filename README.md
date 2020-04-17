@@ -4,7 +4,7 @@
 Initialize a local git repo:
 > git init
 
-Connect to remotr reop:
+Connect to remote reop:
 > git remote add origin "link"
 
 Pull files from remote repo:
