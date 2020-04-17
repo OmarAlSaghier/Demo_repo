@@ -1,61 +1,59 @@
-# Demo_repo
-This is a Demo repository
+# Demo
+## Git Commands:
 
-Git Commands:
-
-initialize a local git repo
+Initialize a local git repo:
 > git init
 
-connect to remotr reop
+Connect to remotr reop:
 > git remote add origin "link"
 
-pull files from remote repo
+Pull files from remote repo:
 > git pull origin master
 
 	if error: fatal: HTTP request failed
 	git remote set-url origin "link"
 
-list of files (untracked and modified)
+List of files (untracked and modified):
 > git status
 
-add a file to index
+Add a file to index:
 > git add "file_name"
 
-commit files
+Commit files:
 > git commit -m "commiting message"
 
-add all new/ modified files to index
+Add all new/ modified files to index:
 > git add -A
 
-commit all new/ modified files
+Commit all new/ modified files:
 > git commit -a -m "message"
 
-log data
+Log data:
 > git log
 
-create a new branch
+Create a new branch:
 > git branch branch_name
 
-switch to branch
+Switch to branch:
 > git checkout branch_name
 
-merging branch to master branch
+Merging branch to master branch:
 > git merge branch_name
 
-rebasing a brach
+Rebasing a brach:
 > git rebase master OR branch_name
 
-Pushing files: first need to made an SSH key
+Pushing files: first need to made an SSH key:
 -generate SSH key
 > ssh-keygen
 
-see the SSH key
+See the SSH key:
 > cat "SSH key path" (near to "saved in")
 
-authenticating SSH with GitHub
+Authenticating SSH with GitHub:
 > ssh -T git@github.com
 
-push to specific branch
+Push to specific branch:
 > git push origin master/ branch_name
 
 
